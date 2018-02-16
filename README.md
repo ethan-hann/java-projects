@@ -25,7 +25,7 @@ _Interested in other projects I've worked on not Java-related? Check out my othe
 
 ### Spring 2018
 * **CSCI 3321 - Numerical Methods**
-  * Approximating the Derivative of ![f(x)](http://latex.codecogs.com/gif.latex?f%28x%29) using the definition of the derivative _(Assignment 1)_:
+  * Approximating the Derivative of $f(x)$ using the definition of the derivative _(Assignment 1)_:
 
      ![equation](http://latex.codecogs.com/gif.latex?f%27%28x%29%20%3D%20%5Clim_%7Bh%20%5Cto%200%7D%20%5Cfrac%7Bf%28x&plus;h%29%20-%20f%28x%29%7D%7Bh%7D)
 
@@ -44,3 +44,24 @@ _Interested in other projects I've worked on not Java-related? Check out my othe
 
 * **CSCI 3352 - Advanced Data Structures**
   * Comparison of QuickSort and HeapSort _(Program1-NonGUI)_
+This program compares the exection times of the QuickSort and HeapSort algorithms.  
+The quick sort algorithm is relatively simple. It is broken up into two parts: a recursion method called QUICKSORT and a method that partitions the input array into smaller sub-arrays, called PARTITION.
+```java
+QUICKSORT(A,p,r)
+if p < r
+	q = PARTITION(A,p,r)
+	QUICKSORT(A,p,q - 1)
+	QUICKSORT(A,q + 1,r)
+where the initial call is QUICKSORT(A, 1, n). n is length of array
+
+PARTITION(A,p,r)
+	x = A[r]
+	i = p - 1
+	for j = p to r - 1
+		if A[j] <= x
+			i += 1
+			exchange A[i] with A[j]
+	exchange A[i + 1] with A[r]
+	return i + 1
+```
+PARTITION will always select the last element A[r] in the subarray A[p . . . r] as the **_pivot_** or the element around which to partition.
