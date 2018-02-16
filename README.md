@@ -49,12 +49,14 @@ _Interested in other projects I've worked on not Java-related? Check out my othe
     **QuickSort:**
 The quick sort algorithm is relatively simple. It is broken up into two parts: a recursion method called QUICKSORT and a method that partitions the input array into smaller sub-arrays, called PARTITION.
 
-    PARTITION will always select the last element A[r] in the subarray A[p . . . r] as the **_pivot_** or the element around which to partition.
+    PARTITION will always select the last element A[r] in the subarray A[p . . . r] as the **_pivot_** or the element around which to partition.  
+    [Check out this link to learn more about QuickSort](https://www.geeksforgeeks.org/quick-sort/)
 
     **HeapSort:**
     The heap sort algorithm is pretty straightforward. (Once you know what a heap is, of course!)
 
     _What is a binary heap?_ Well, in layman's terms, it is simply an array where there is a special relationship between the indices of the elements. If the parent node of the heap is stored at index `i` then the left child can be calculated as being in position `2 * i + 1` and the right child is at position `2 * i + 2`. The value at index `i` (the parent) is greater than the values in its two child nodes. This defines what is known as a **max binary heap.** If the parent is smaller than the two children nodes, this is known as a **min binary heap.**
+    [Check out this link to learn more about HeapSort](https://www.geeksforgeeks.org/heap-sort/)
 
 ```java
 QUICKSORT(A,p,r)
