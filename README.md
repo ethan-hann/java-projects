@@ -25,7 +25,7 @@ _Interested in other projects I've worked on not Java-related? Check out my othe
 
 ### Spring 2018
 * **CSCI 3321 - Numerical Methods**
-  * Approximating the Derivative of $f(x)$ using the definition of the derivative _(Assignment 1)_:
+  * Approximating the Derivative of ![f(x)](http://latex.codecogs.com/gif.latex?f%28x%29) using the definition of the derivative _(Assignment 1)_:
 
      ![equation](http://latex.codecogs.com/gif.latex?f%27%28x%29%20%3D%20%5Clim_%7Bh%20%5Cto%200%7D%20%5Cfrac%7Bf%28x&plus;h%29%20-%20f%28x%29%7D%7Bh%7D)
 
