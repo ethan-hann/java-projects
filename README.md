@@ -26,20 +26,19 @@ _Interested in other projects I've worked on not Java-related? Check out my othe
 ### Spring 2018
 * **CSCI 3321 - Numerical Methods**
   * Approximating the Derivative of $f(x)$ using the definition of the derivative _(Assignment 1)_:
-     $$
-     f'(x) = \lim_{h \to 0} \frac{f(x+h) - f(x)}{h}
-     $$
+
+     ![equation](http://latex.codecogs.com/gif.latex?f%27%28x%29%20%3D%20%5Clim_%7Bh%20%5Cto%200%7D%20%5Cfrac%7Bf%28x&plus;h%29%20-%20f%28x%29%7D%7Bh%7D)
   * Approximating a Root of $f(x)$ using Secant Method _(Assignment 2)_:
-     $$
-     x_{n+1} = x_{n} - \frac{f(x_{n})(x_{n} - x_{n-1})}{f(x_{n}) - f(x_{n-1})},
-     \text{where } x_{n} \text{and } x_{n-1} \text{are initial guesses for the root}
-     $$
+
+     ![equation](http://latex.codecogs.com/gif.latex?x_%7Bn&plus;1%7D%20%3D%20x_%7Bn%7D%20-%20%5Cfrac%7Bf%28x_%7Bn%7D%29%28x_%7Bn%7D%20-%20x_%7Bn-1%7D%29%7D%7Bf%28x_%7Bn%7D%29%20-%20f%28x_%7Bn-1%7D%29%7D%2C%20%5Ctext%7Bwhere%20%7D%20x_%7Bn%7D%20%5Ctext%7Band%20%7D%20x_%7Bn-1%7D%20%5Ctext%7Bare%20initial%20guesses%20for%20the%20root%7D)
   * Approximating a Root of $f(x)$ using Bisection Method and Newton's Method _(InClassAssignment)_:
 
     **_Newton's Method_**
-     $$
-     \text{Starting with initial guess } x_{0}: x_{n+1} = x_{n} - \frac{f(x_{n})}{f'(x_{n})}
-     $$
+    ![equation](http://latex.codecogs.com/gif.latex?%5Ctext%7BStarting%20with%20initial%20guess%20%7D%20x_%7B0%7D%3A%20x_%7Bn&plus;1%7D%20%3D%20x_%7Bn%7D%20-%20%5Cfrac%7Bf%28x_%7Bn%7D%29%7D%7Bf%27%28x_%7Bn%7D%29%7D)
+
+     **_Bisection Method_**
+     [Check out this link to learn more about the Bisection Method](http://www.sosmath.com/calculus/limcon/limcon07/limcon07.html)
+
 
 * **CSCI 3352 - Advanced Data Structures**
   * Comparison of QuickSort and HeapSort _(Program1-NonGUI)_
