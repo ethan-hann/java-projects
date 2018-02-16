@@ -44,8 +44,18 @@ _Interested in other projects I've worked on not Java-related? Check out my othe
 
 * **CSCI 3352 - Advanced Data Structures**
   * Comparison of QuickSort and HeapSort _(Program1-NonGUI)_
-This program compares the exection times of the QuickSort and HeapSort algorithms.  
+  This program compares the exection times of the QuickSort and HeapSort algorithms.
+
+    **QuickSort:**
 The quick sort algorithm is relatively simple. It is broken up into two parts: a recursion method called QUICKSORT and a method that partitions the input array into smaller sub-arrays, called PARTITION.
+
+    PARTITION will always select the last element A[r] in the subarray A[p . . . r] as the **_pivot_** or the element around which to partition.
+
+    **HeapSort:**
+    The heap sort algorithm is pretty straightforward. (Once you know what a heap is, of course!)
+
+    _What is a binary heap?_ Well, in layman's terms, it is simply an array where there is a special relationship between the indices of the elements. If the parent node of the heap is stored at index `i` then the left child can be calculated as being in position `2 * i + 1` and the right child is at position `2 * i + 2`. The value at index `i` (the parent) is greater than the values in its two child nodes. This defines what is known as a **max binary heap.** If the parent is smaller than the two children nodes, this is known as a **min binary heap.**
+
 ```java
 QUICKSORT(A,p,r)
 if p < r
@@ -64,4 +74,18 @@ PARTITION(A,p,r)
 	exchange A[i + 1] with A[r]
 	return i + 1
 ```
-PARTITION will always select the last element A[r] in the subarray A[p . . . r] as the **_pivot_** or the element around which to partition.
+
+```
+HEAPSORT
+1. Build a max heap from the input data.
+
+2. After building, the largest item is stored at the root of the heap (at index 0). Replace
+   it with the last item of the heap (at index n-1, where n is length of array).
+   
+3. Reduce the size of the heap by 1.
+
+4. Repeat steps 1-3 while the size of the heap is greater than 1.
+
+5. Celebrate! Your array is sorted!
+```
+
