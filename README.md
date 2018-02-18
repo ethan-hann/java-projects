@@ -17,11 +17,29 @@ _Interested in other projects I've worked on not Java-related? Check out my othe
 ## School Projects
 ### Fall 2016
 * **CSCI 1471 - ComputerScience2**
-  * Area Calculator
-  * Car Trip V2
-  * Caesar Cipher
-  * Grade Level
-  * Palindrome Checker
+  * Area Calculator  
+     This one is just a basic area calculator that calculates the area of circles, squares, and triangles.
+     It takes in user input, such as the type of shape to calculate the area of and the required dimensions, and outputs a shape to the console using asterisks that represents the user's input along with the area.
+
+  * Car Trip V2  
+     This project was made to estimate the amount of gas needed for a car trip. It asks the user for the amount of gas in the tank to start with, and using a loop will continue to ask for legs of the trip along with the speed of each leg. At the end, it will calculate whether or not there is enough gas left over for a return trip or if more gas is needed to continue.
+
+  * Caesar Cipher  
+     A Caesar Cipher is one of the simplest and most widely known encryption techniques. It can be used to decode/encode simple messages. It is a substitution cipher in which each letter in the plain-text is replaced by some letter some fixed number of positions down the alphabet. For example, given the string 'Caesar' and a shift of 3:
+            C + 3 -> F
+            A + 3 -> D
+            E + 3 -> H
+            S + 3 -> V
+            A + 3 -> D
+            R + 3 -> U
+
+  * Grade Level  
+     The requirements for this project was to create a program that would calculate the Flesch-Kincaid grade level of a given text. The Flesch–Kincaid readability tests are readability tests designed to indicate how difficult a reading passage in English is to understand. There are two tests, the Flesch Reading Ease, and the Flesch–Kincaid Grade Level. This project calculates the Flesh-Kincaid Grade Level according to the following formula:  
+     ![grade-level](http://latex.codecogs.com/gif.latex?0.39%20*%20%28%5Cfrac%7B%5Ctext%7Btotal%20words%7D%7D%7B%5Ctext%7Btotal%20sentences%7D%7D%29%20&plus;%2011.8%20*%20%28%5Cfrac%7B%5Ctext%7Btotal%20syllables%7D%7D%7B%5Ctext%7Btotal%20words%7D%7D%29%20-%2015.59)
+
+  * Palindrome Checker  
+     A palindrome is any string of characters, numbers, or symbols that is spelled the same forwards as backwards. For example, RACECAR, 1234321, !@#%^%#@!  
+     This project lets the user enter any text into a text box and will determine whether the string of text is a palindrome.
 
 ### Spring 2018
 * **CSCI 3321 - Numerical Methods**
@@ -55,7 +73,7 @@ The quick sort algorithm is relatively simple. It is broken up into two parts: a
     **HeapSort:**
     The heap sort algorithm is pretty straightforward. (Once you know what a heap is, of course!)
 
-    _What is a binary heap?_ Well, in layman's terms, it is simply an array where there is a special relationship between the indices of the elements. If the parent node of the heap is stored at index `i` then the left child can be calculated as being in position `2 * i + 1` and the right child is at position `2 * i + 2`. The value at index `i` (the parent) is greater than the values in its two child nodes. This defines what is known as a **max binary heap.** If the parent is smaller than the two children nodes, this is known as a **min binary heap.**  
+    _What is a binary heap?_ Well, in layman's terms, it is simply an array where there is a special relationship between the indices of the elements. If the parent node of the heap is stored at index `i` then the left child can be calculated as being in position `2 * i + 1` and the right child is at position `2 * i + 2`. The value at index `i` (the parent) is greater than the values in its two child nodes. This defines what is known as a **max binary heap.** If the parent is smaller than the two children nodes, this is known as a **min binary heap.**
     [Check out this link to learn more about HeapSort](https://www.geeksforgeeks.org/heap-sort/)
 
 ```java
@@ -90,4 +108,3 @@ HEAPSORT
 
 5. Celebrate! Your array is sorted!
 ```
-
