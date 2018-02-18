@@ -25,12 +25,12 @@ _Interested in other projects I've worked on not Java-related? Check out my othe
      This project was made to estimate the amount of gas needed for a car trip. It asks the user for the amount of gas in the tank to start with, and using a loop will continue to ask for legs of the trip along with the speed of each leg. At the end, it will calculate whether or not there is enough gas left over for a return trip or if more gas is needed to continue.
 
   * Caesar Cipher  
-     A Caesar Cipher is one of the simplest and most widely known encryption techniques. It can be used to decode/encode simple messages. It is a substitution cipher in which each letter in the plain-text is replaced by some letter some fixed number of positions down the alphabet. For example, given the string 'Caesar' and a shift of 3:
-            C + 3 -> F
-            A + 3 -> D
-            E + 3 -> H
-            S + 3 -> V
-            A + 3 -> D
+     A Caesar Cipher is one of the simplest and most widely known encryption techniques. It can be used to decode/encode simple messages. It is a substitution cipher in which each letter in the plain-text is replaced by some letter some fixed number of positions down the alphabet. For example, given the string 'Caesar' and a shift of 3:  
+            C + 3 -> F  
+            A + 3 -> D  
+            E + 3 -> H  
+            S + 3 -> V  
+            A + 3 -> D  
             R + 3 -> U
 
   * Grade Level  
