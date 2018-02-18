@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/School/Fall 2016/CSCI1471.ComputerScience2/AreaCalculator/AreaCalculator.iml" filepath="$PROJECT_DIR$/School/Fall 2016/CSCI1471.ComputerScience2/AreaCalculator/AreaCalculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/School/Spring 2018/CSCI3321.NumericalMethods/Assignment1/Assignment1.iml" filepath="$PROJECT_DIR$/School/Spring 2018/CSCI3321.NumericalMethods/Assignment1/Assignment1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/School/Spring 2018/CSCI3321.NumericalMethods/Assignment2/Assignment2.iml" filepath="$PROJECT_DIR$/School/Spring 2018/CSCI3321.NumericalMethods/Assignment2/Assignment2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/School/Fall 2016/CSCI1471.ComputerScience2/CSCI1471.ComputerScience2.iml" filepath="$PROJECT_DIR$/School/Fall 2016/CSCI1471.ComputerScience2/CSCI1471.ComputerScience2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/School/Spring 2018/CSCI3321.NumericalMethods/CSCI3321.NumericalMethods.iml" filepath="$PROJECT_DIR$/School/Spring 2018/CSCI3321.NumericalMethods/CSCI3321.NumericalMethods.iml" />
+      <module fileurl="file://$PROJECT_DIR$/School/Spring 2018/CSCI3352.AdvancedDataStructures/CSCI3352.AdvancedDataStructures.iml" filepath="$PROJECT_DIR$/School/Spring 2018/CSCI3352.AdvancedDataStructures/CSCI3352.AdvancedDataStructures.iml" />
+      <module fileurl="file://$PROJECT_DIR$/School/Fall 2016/CSCI1471.ComputerScience2/CarTrip/CarTrip.iml" filepath="$PROJECT_DIR$/School/Fall 2016/CSCI1471.ComputerScience2/CarTrip/CarTrip.iml" />
+      <module fileurl="file://$PROJECT_DIR$/School/Fall 2016/CSCI1471.ComputerScience2/CeaserCipher/CeaserCipher.iml" filepath="$PROJECT_DIR$/School/Fall 2016/CSCI1471.ComputerScience2/CeaserCipher/CeaserCipher.iml" />
+      <module fileurl="file://$PROJECT_DIR$/School/Fall 2016/CSCI1471.ComputerScience2/GradeLevel/GradeLevel.iml" filepath="$PROJECT_DIR$/School/Fall 2016/CSCI1471.ComputerScience2/GradeLevel/GradeLevel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/School/Spring 2018/CSCI3321.NumericalMethods/InClassAssignment/InClassAssignment.iml" filepath="$PROJECT_DIR$/School/Spring 2018/CSCI3321.NumericalMethods/InClassAssignment/InClassAssignment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/School/Fall 2016/CSCI1471.ComputerScience2/PalindromeChecker/PalindromeChecker.iml" filepath="$PROJECT_DIR$/School/Fall 2016/CSCI1471.ComputerScience2/PalindromeChecker/PalindromeChecker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/School/Spring 2018/CSCI3352.AdvancedDataStructures/Program1-NonGUI/Program1-NonGUI.iml" filepath="$PROJECT_DIR$/School/Spring 2018/CSCI3352.AdvancedDataStructures/Program1-NonGUI/Program1-NonGUI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PersonalProjects/SqaureApocalypse/SqaureApocalypse.iml" filepath="$PROJECT_DIR$/PersonalProjects/SqaureApocalypse/SqaureApocalypse.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-projects.iml" filepath="$PROJECT_DIR$/java-projects.iml" />
+    </modules>
+  </component>
+</project>
