@@ -25,7 +25,7 @@ _Interested in other projects I've worked on not Java-related? Check out my othe
      This project was made to estimate the amount of gas needed for a car trip. It asks the user for the amount of gas in the tank to start with, and using a loop will continue to ask for legs of the trip along with the speed of each leg. At the end, it will calculate whether or not there is enough gas left over for a return trip or if more gas is needed to continue.
 
   * Caesar Cipher  
-     A Caesar Cipher is one of the simplest and most widely known encryption techniques. It can be used to decode/encode simple messages. It is a substitution cipher in which each letter in the plain-text is replaced by some letter some fixed number of positions down the alphabet. For example, given the string 'Caesar' and a shift of 3:  
+     A Caesar Cipher is one of the simplest and most widely known encryption techniques. It can be used to decode/encode simple messages. It is a substitution cipher in which each letter in the plain-text is replaced by some letter some fixed number of positions down the alphabet. For example, given the string 'Caesar' and a shift of 3:
             C + 3 -> F  
             A + 3 -> D  
             E + 3 -> H  
@@ -73,7 +73,7 @@ The quick sort algorithm is relatively simple. It is broken up into two parts: a
     **HeapSort:**
     The heap sort algorithm is pretty straightforward. (Once you know what a heap is, of course!)
 
-    _What is a binary heap?_ Well, in layman's terms, it is simply an array where there is a special relationship between the indices of the elements. If the parent node of the heap is stored at index `i` then the left child can be calculated as being in position `2 * i + 1` and the right child is at position `2 * i + 2`. The value at index `i` (the parent) is greater than the values in its two child nodes. This defines what is known as a **max binary heap.** If the parent is smaller than the two children nodes, this is known as a **min binary heap.**  
+    _What is a binary heap?_ Well, in layman's terms, it is simply an array where there is a special relationship between the indices of the elements. If the parent node of the heap is stored at index `i` then the left child can be calculated as being in position `2 * i + 1` and the right child is at position `2 * i + 2`. The value at index `i` (the parent) is greater than the values in its two child nodes. This defines what is known as a **max binary heap.** If the parent is smaller than the two children nodes, this is known as a **min binary heap.**
     [Check out this link to learn more about HeapSort](https://www.geeksforgeeks.org/heap-sort/)
 
 ```java
@@ -108,3 +108,8 @@ HEAPSORT
 
 5. Celebrate! Your array is sorted!
 ```
+
+## Personal Projects
+* Square Apocalypse (Game)  
+   This was a game I made based on a YouTube tutorial I watched. The premise is that you are a circle in a world of squares and you must use your power-ups and the WASD keys to dodge the squares that are coming after you. Some enemies are easy and some are very hard. If you can make it to level 50, there is a boss fight and you get to shoot bullets at the boss! If you can defeat him, you win and have saved the world from those awful squares :grin:. Making it to level 50 is no easy challenge though and I really don't think it is doable at this time because of the bugs. Oh well.  
+  The game was made using the built-in Java AWT libraries and a few slick-util libraries for image loading and audio. It was a fun project to work on and I learned a lot about game programming based on this. It's not perfect and there are a lot of bugs that still need to be worked out but I thought it was at least playable (for the most part :wink:). I can't remember the exact tutorial that I watched but if you are interested in game programming, just search for "Beginner Game Programming in Java" on YouTube and I'm sure you would find a similar tutorial.
