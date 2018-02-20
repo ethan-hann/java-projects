@@ -122,3 +122,5 @@ HEAPSORT
   3. If _n_ is odd, multiply it by three and add one.
   4. Continue steps **ii** and **iii** until _n_ is equal one.
 
+* Hangman (Game)  
+  The classic Hangman game that was coded in just under 2 hours. Definitely not perfect and could use a lot of cleaning up but still, it was fun to make Hangman. Right now, it just selects a random word from a pool of 10 words. Possible implementations include selecting words from a file. This would allow for a larger selection of words and more replay value. Also, I could make the game as a GUI instead of console based. But, I'm happy with what I accomplished in under 2 hours.
