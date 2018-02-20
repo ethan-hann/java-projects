@@ -113,3 +113,12 @@ HEAPSORT
 * Square Apocalypse (Game)  
    This was a game I made based on a YouTube tutorial I watched. The premise is that you are a circle in a world of squares and you must use your power-ups and the WASD keys to dodge the squares that are coming after you. Some enemies are easy and some are very hard. If you can make it to level 50, there is a boss fight and you get to shoot bullets at the boss! If you can defeat him, you win and have saved the world from those awful squares :grin:. Making it to level 50 is no easy challenge though and I really don't think it is doable at this time because of the bugs. Oh well.  
   The game was made using the built-in Java AWT libraries and a few slick-util libraries for image loading and audio. It was a fun project to work on and I learned a lot about game programming based on this. It's not perfect and there are a lot of bugs that still need to be worked out but I thought it was at least playable (for the most part :wink:). I can't remember the exact tutorial that I watched but if you are interested in game programming, just search for "Beginner Game Programming in Java" on YouTube and I'm sure you would find a similar tutorial.
+
+* HailStone Sequence (Mathematics)  
+  The Hailstone sequence is a problem that is found in Douglas Hofstadter’s book _Gödel, Escher, Bach_ which contain's many mathematical puzzles. I solved this problem using a recursive method that would continue to call itself until the base case of _n_ being 1 was met. This problem's algorithm is this:
+
+  1. Pick some positive integer and call it _n_.
+  2. If _n_ is even, divide it by two.
+  3. If _n_ is odd, multiply it by three and add one.
+  4. Continue steps **ii** and **iii** until _n_ is equal one.
+
